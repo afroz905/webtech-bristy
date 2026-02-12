@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Student academic profile webpage">
+<meta name="keywords" content="HTML5, Profile, Education, Contact">
+<meta name="author" content="Student Name">
+<title>Student Profile</title>
+</head>
+ 
+<body>
+ 
+    <header>
+<h1>Student Name</h1>
+<nav>
+<a href="#about">About</a> |
+<a href="#education">Education</a> |
+<a href="#form">Contact</a>
+</nav>
+</header>
+ 
+    <main>
+ 
+        <section id="about">
+<h2>About Me</h2>
+<p>I am a computer science student seeking internship opportunities.</p>
+</section>
+ 
+        <section id="education">
+<h2>Education Background</h2>
+ 
+            <table border="1">
+<caption>Education Details</caption>
+ 
+                <thead>
+<tr>
+<th>Degree</th>
+<th>Institution</th>
+<th>Year</th>
+<th>Result</th>
+</tr>
+</thead>
+ 
+                <tbody>
+<tr>
+<td>BSc in CSE</td>
+<td>AIUB</td>
+<td>2025</td>
+<td>3.75</td>
+</tr>
+<tr>
+<td>SSC</td>
+<td>PG School</td>
+<td>2019</td>
+<td>5.00</td>
+</tr>
+</tbody>
+</table>
+</section>
+ 
+        <section id="form">
+<h2>Contact Me</h2>
+ 
+            <form action="#" method="post">
+ 
+                <label for="fullname">Name:</label>
+<input type="text" id="fullname" name="fullname"
+                       required placeholder="Full name"><br><br>
+ 
+                <label for="mail">Email:</label>
+<input type="email" id="mail" name="mail"
+                       required placeholder="Email address"><br><br>
+ 
+                <label for="mobile">Phone:</label>
+<input type="tel" id="mobile" name="mobile"
+                       pattern="[0-9]{11}"
+                       placeholder="01XXXXXXXXX"><br><br>
+ 
+                <label for="msg">Message:</label><br>
+<textarea id="msg" name="msg"
+                          required maxlength="150"
+                          placeholder="Your message"></textarea><br><br>
+ 
+                <input type="submit" value="Submit">
+ 
+            </form>
+</section>
+ 
+    </main>
+ 
+    <footer>
+<p>© 2026 Student Profile</p>
+</footer>
+ 
+</body>
+</html>

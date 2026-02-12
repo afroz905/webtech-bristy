@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Lab Task 04 - B</title>
+</head>
+ 
+<body>
+ 
+    <h1>Admission Form</h1>
+ 
+    <form action="#" method="post">
+ 
+        <!-- Personal Information -->
+<fieldset>
+<legend>Personal Information</legend>
+ 
+            <label for="fullname">Full Name:</label>
+<input type="text" id="fullname" name="fullname"><br><br>
+ 
+            <label for="mail">Email:</label>
+<input type="email" id="mail" name="mail"><br><br>
+ 
+            <label for="pass">Password:</label>
+<input type="password" id="pass" name="pass"><br><br>
+ 
+            <label for="birth">Date of Birth:</label>
+<input type="date" id="birth" name="birth"><br><br>
+ 
+            <label>Gender:</label>
+<input type="radio" id="g1" name="gender" value="Male">
+<label for="g1">Male</label>
+ 
+            <input type="radio" id="g2" name="gender" value="Female">
+<label for="g2">Female</label>
+</fieldset>
+ 
+        <br>
+ 
+        <!-- Academic Information -->
+<fieldset>
+<legend>Academic Information</legend>
+ 
+            <label for="department">Department:</label>
+<select id="department" name="department">
+<option>CSE</option>
+<option>EEE</option>
+<option>BBA</option>
+<option>ENG</option>
+</select><br><br>
+ 
+            <label>Skills:</label>
+<input type="checkbox" id="c1" name="skill" value="C++">
+<label for="c1">C++</label>
+ 
+            <input type="checkbox" id="c2" name="skill" value="Python">
+<label for="c2">Python</label>
+ 
+            <input type="checkbox" id="c3" name="skill" value="Java">
+<label for="c3">Java</label>
+</fieldset>
+ 
+        <br>
+ 
+        <!-- Buttons -->
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+ 
+    </form>
+ 
+</body>
+</html>
