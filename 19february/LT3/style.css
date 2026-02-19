@@ -1,0 +1,79 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #fdf6ec;
+    color: #333;
+    text-align: center;
+}
+ 
+/* -------- Box Model Section -------- */
+ 
+.container {
+    margin-top: 30px;
+}
+ 
+.card {
+    width: 220px;
+    height: 120px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 3px dashed;
+}
+ 
+/* Default box sizing */
+.one {
+    background-color: #ffd6a5;
+    border-color: #ff9f1c;
+}
+ 
+/* Border-box */
+.two {
+    background-color: #caffbf;
+    border-color: #2b9348;
+    box-sizing: border-box;
+}
+ 
+/* More padding & margin */
+.three {
+    background-color: #bdb2ff;
+    border-color: #5a189a;
+    padding: 35px;
+    margin: 40px auto;
+}
+ 
+/* -------- Display Properties -------- */
+ 
+.block-demo {
+    display: block;
+    background-color: #ffcad4;
+    padding: 10px;
+    margin: 15px;
+}
+ 
+.inline-demo {
+    display: inline;
+    background-color: #a0c4ff;
+    padding: 5px 12px;
+}
+ 
+.inline-block-demo {
+    display: inline-block;
+    background-color: #fdffb6;
+    width: 200px;
+    padding: 12px;
+    margin: 10px;
+}
+ 
+/* display none */
+.hidden-display {
+    display: none;
+    background-color: #ffadad;
+    padding: 10px;
+}
+ 
+/* visibility hidden */
+.hidden-visibility {
+    visibility: hidden;
+    background-color: #9bf6ff;
+    padding: 10px;
+    margin: 20px;
+}

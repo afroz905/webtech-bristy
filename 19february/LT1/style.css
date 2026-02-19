@@ -1,0 +1,10 @@
+/* Universal Selector */
+* {
+    font-family: Verdana, sans-serif;
+    background-color: #eeeeee;
+}
+ 
+/* Element Selector */
+h1 {
+    color: darkblue;
+}

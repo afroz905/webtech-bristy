@@ -1,0 +1,68 @@
+/* Universal styling */
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    background-color: #222;
+    color: white;
+}
+ 
+/* Absolute Units */
+.hero {
+    padding: 15px;      /* px */
+    margin: 1cm;        /* cm */
+}
+ 
+/* Group Selector */
+h1, h2 {
+    text-align: center;
+}
+ 
+/* Relative Units */
+h1 {
+    font-size: 3rem;    /* rem */
+}
+ 
+h2 {
+    font-size: 1.2em;   /* em */
+    color: #00ffff;
+}
+ 
+/* Descendant Selector */
+.box p {
+    font-size: 18px;    /* px */
+    color: yellow;
+}
+ 
+/* % and vh */
+.box {
+    width: 70%;         /* % */
+    height: 25vh;       /* vh */
+    margin: 2rem auto;
+    padding: 2em;
+    background-color: #444;
+}
+ 
+/* Attribute Selector */
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+}
+ 
+/* Pseudo Classes */
+a:hover {
+    color: red;
+}
+ 
+button:hover {
+    background-color: white;
+    color: black;
+}
+ 
+button:active {
+    background-color: orange;
+}
+ 
+input:focus {
+    border: 3px solid cyan;
+}
