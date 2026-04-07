@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking Form</title>
+</head>
+<body>
+    <h2>Event Booking Form</h2>
+    <form id="bookingForm">
+        <p>Full Name:
+            <input type="text" placeholder="Enter your full name">
+            <span class="error"></span>
+        </p>
+        <p>Email Address:
+            <input type="email" placeholder="Enter your email">
+            <span class="error"> </span>
+        </p>
+        <p>Number of Tickets:
+            <input type="number" placeholder="Enter your number of tickets">
+            <span class="error"></span>
+        </p>
+        <p>Event Type:
+            <select name="Event Type" id="Event Type">
+                <option value="workshop">workshop </option>
+                <option value="seminar">seminar</option>
+                <option value="networking">networking</option>
+
+            </select>
+            
+        </p>
+        <p>Event Date:
+            <input type="date" placeholder="Enter your event date">
+            <span class="error"></span>
+        </p>
+        <label for="Agree">
+            <p>Agree to Terms:
+            <input type="checkbox" placeholder="Agree">
+            <span class="error"></span>
+            </p>
+
+        </label>
+        <input type="submit" value="submit">
+        
+    </form>
+
+</body>
